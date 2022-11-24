@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Yeseva One', cursive;
+}
+
+.logo{
+    float: left;
+    margin: 7px 0px 6px 10px;
+}
+
+nav ul{
+    list-style: none;
+    width: 24%;
+    padding: 0;
+}
+
+nav li{
+    float: left;
+    padding-right: 5%;
+    font-size: 1.5em;
+}
+
+
+div{
+    border: 2px solid rgb(192, 0, 0);
+    margin: 35px 28px 0px 9px;
+    padding: 5px;
+}
+
+.d2 img {
+    margin-left: 16%;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Epilogue', sans-serif;
+}
+
+footer{
+    margin: 35px 28px 0px 9px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
