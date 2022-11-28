@@ -51,7 +51,7 @@ footer {
 .container3 {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: min-content 1fr min-content;
     min-height: 100vh;
 }
 
@@ -63,7 +63,16 @@ footer {
     grid-column: 1 /4;
 }
 
+@media (max-width:640px) {
+    .container3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 3fr 3fr 1fr;
+    }
 
+    header, footer, nav {
+        grid-column: 1;
+    }
+}
 
 
 
