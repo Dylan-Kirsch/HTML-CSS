@@ -46,10 +46,22 @@ footer {
     grid-template-rows: 180% 180% 180%;
 }
 
+/*********** *********/
 
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 20% 60% 20%;
+    min-height: 100vh;
+}
 
+header {
+    grid-column: 1 /4;
+}
 
-
+footer {
+    grid-column: 1 /4;
+}
 
 
 
