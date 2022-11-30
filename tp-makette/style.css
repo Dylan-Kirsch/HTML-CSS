@@ -12,18 +12,20 @@ nav {
 }
 
 #logo {
-    width: 18%;
+    width: 14%;
     padding-left: 10px;
 }
 
-ul {
-    display: flex;
-    list-style: none;
+.icon {
+    display: none;
 }
 
-li {
-    margin-right: 60px;
-    font-size: 1.5em;
+nav a {
+    text-decoration: none;
+    float: right;
+    font-size: 1.3em;
+    color: #000;
+    margin-right: 2%;
 }
 
 /**********  CARROUSEL **********/
@@ -37,26 +39,58 @@ main img {
 /******* SLIDE NOUVEAUTE ************/
 
 #new {
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.5em;
-    margin: 1%;
+    margin: 2% 1% 2% 3%;
 }
 
 .slide {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    text-align: center;
+    background-color: #f7f7f7;
 }
 
 .slide img {
-    width: 60%;
+    width: 57%;
+    margin: 10px 0px;
+    padding: 7px 7px;
+    background: #fff;
+    border-radius: 10px;
 }
 
 
 
 
+/*********** FOOTER ********/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 4%;
+    margin-top: 30px;
+}
 
 
+@media (max-width: 780px) {
 
+    .resp {
+        display: none;
+    }
 
+    #new {
+        font-size: 1em;
+    }
 
+    .icon {
+        display: block;
+        font-size: 1.7em;
+        margin-right: 5%;
+    }
 
+    .none {
+        display: none;
+    }
+
+}
 
